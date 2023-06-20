@@ -1,0 +1,35 @@
+<!doctype html>
+<html language="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title> Document </title>
+        <link rel="stylesheet" href="./style.css">
+
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+        
+        <style>
+            model-viewer{
+                width: 400px;
+                height:600px;
+                margin:0 auto;
+            }
+        </style>
+        </head>
+        <body>
+            <model-viewer toggleable="true" src="Jack Covers_.gltf" camera-controls="true" style="--poster-color:transparent;" alt="E36 Jack Covers" auto-rotate shadow-intensity="2" exposure="1" shadow-softness="0.64" camera-target="0m 0.02m -0.02375m">
+                <button class="Hotspot" slot="hotspot-1" data-position="-0.001500505278462072m 0.02456465506283462m -0.00223490057345559m" data-normal="1m 0m 0m" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation">Flat Head </div>
+                </button><button class="Hotspot" slot="hotspot-2" data-position="0.006873219156923616m 0.032253886164637306m -0.03448891893849461m" data-normal="0.6800226218586579m 0.7331911304431261m -8.740320206791777e-8m" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation">Spiralled Thread</div>
+                </button>
+                <div class="progress-bar hide" slot="progress-bar">
+                    <div class="update-bar"></div>
+                </div>
+                <button slot="ar-button" id="ar-button">
+                    View in your space
+                </button>
+            </model-viewer>
+
+        </body>
+        </html>
